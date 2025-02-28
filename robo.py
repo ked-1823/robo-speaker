@@ -10,8 +10,8 @@ while True:
     if text.lower()=="q":
         break
         
-    addtext="how can i help you more"
-    engine.say(text,addtext)
+    
+    engine.say(text)
     engine.runAndWait()
   
    
